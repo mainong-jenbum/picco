@@ -67,7 +67,7 @@ Pico pico = new Pico(context, null, Type.TIME);
         });
  pico.show();
 ```
-### FORMATTER
+## FORMATTER
 * Date\
 *THU 12 FEB, 19*
 ```java
