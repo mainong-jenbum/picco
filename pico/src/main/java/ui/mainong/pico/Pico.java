@@ -2,6 +2,8 @@ package ui.mainong.pico;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
@@ -54,7 +56,7 @@ public class Pico extends Dialog implements View.OnClickListener {
         super.onCreate(savedInstanceState);
 
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-
+        getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         // Sets layout by type
         if (type == Type.CALENDAR) {
             setContentView(R.layout.layout_date_picker);
