@@ -29,7 +29,7 @@ dependencies {
 
 ## Usage
 
-* Calendar
+### Calendar
 ```java
 Pico pico = new Pico(context, null, Type.CALENDAR);
         pico.setPicoListener(new PicoListener() {
@@ -49,7 +49,7 @@ Pico pico = new Pico(context, null, Type.CALENDAR);
 ```
 ![date_picker](https://user-images.githubusercontent.com/23124053/58652787-f9420380-8331-11e9-87a0-e451e040982f.png)
 
-* Time
+### Time
 ```java
 Pico pico = new Pico(context, null, Type.TIME);
         pico.setPicoListener(new PicoListener() {
