@@ -1,6 +1,6 @@
 # Picco
 
-*Pick a date or time in a new way* \
+*Pick a date or a time in a new way* \
 A simple library to display toast messages with custom background and icon.
 
 ## How to
@@ -69,13 +69,14 @@ Pico pico = new Pico(context, null, Type.TIME);
 ```
 ### FORMATTER
 * Date
+*THU 12 FEB, 19*
 ```java
 String formattedDate = Pico.formatDate(calendar);
 ```
-*THU 12 FEB, 19*
+
 
 * Time
+*12:35:02 AM*
 ```java
 String formattedTime = Pico.formatTime(calendar);
 ```
-*12:35:02 AM*
