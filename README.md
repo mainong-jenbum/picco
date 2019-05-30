@@ -47,7 +47,7 @@ Pico pico = new Pico(context, null, Type.CALENDAR);
         });
  pico.show();
 ```
-![date](https://user-images.githubusercontent.com/23124053/58634534-26c68700-8309-11e9-9fd8-89c53a669fc5.png)
+![date](https://user-images.githubusercontent.com/23124053/58634675-7d33c580-8309-11e9-9b02-a2266a01e46a.png)
 
 * Time
 ```java
@@ -68,7 +68,7 @@ Pico pico = new Pico(context, null, Type.TIME);
         });
  pico.show();
 ```
-![time](https://user-images.githubusercontent.com/23124053/58634541-28904a80-8309-11e9-8d29-5937d5a831d8.png)
+![time](https://user-images.githubusercontent.com/23124053/58634677-802eb600-8309-11e9-89f2-b3880a7b9b65.png)
 
 
 ## FORMATTER
