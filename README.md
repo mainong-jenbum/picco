@@ -68,14 +68,14 @@ Pico pico = new Pico(context, null, Type.TIME);
  pico.show();
 ```
 ### FORMATTER
-* Date
+* Date\
 *THU 12 FEB, 19*
 ```java
 String formattedDate = Pico.formatDate(calendar);
 ```
 
 
-* Time
+* Time\
 *12:35:02 AM*
 ```java
 String formattedTime = Pico.formatTime(calendar);
