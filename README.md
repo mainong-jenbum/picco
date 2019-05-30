@@ -30,6 +30,7 @@ dependencies {
 ## Usage
 
 ### Calendar
+![date_picker](https://user-images.githubusercontent.com/23124053/58652787-f9420380-8331-11e9-87a0-e451e040982f.png)
 ```java
 Pico pico = new Pico(context, null, Type.CALENDAR);
         pico.setPicoListener(new PicoListener() {
@@ -47,9 +48,9 @@ Pico pico = new Pico(context, null, Type.CALENDAR);
         });
  pico.show();
 ```
-![date_picker](https://user-images.githubusercontent.com/23124053/58652787-f9420380-8331-11e9-87a0-e451e040982f.png)
 
 ### Time
+![time_picker](https://user-images.githubusercontent.com/23124053/58652793-fc3cf400-8331-11e9-97d8-7c546c168d12.png)
 ```java
 Pico pico = new Pico(context, null, Type.TIME);
         pico.setPicoListener(new PicoListener() {
@@ -68,7 +69,6 @@ Pico pico = new Pico(context, null, Type.TIME);
         });
  pico.show();
 ```
-![time_picker](https://user-images.githubusercontent.com/23124053/58652793-fc3cf400-8331-11e9-97d8-7c546c168d12.png)
 
 
 ## FORMATTER
