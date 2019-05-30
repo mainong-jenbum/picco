@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pico</string>
+    <string name="pick_a_time">PICK A TIME</string>
+    <string name="pick_a_date">PICK A DATE</string>
+</resources>
