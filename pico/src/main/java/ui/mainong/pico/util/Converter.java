@@ -13,6 +13,7 @@ public class Converter {
     }
 
     public static String formatTime(Calendar time){
+
         int hour = time.get(Calendar.HOUR_OF_DAY);
         int min = time.get(Calendar.MINUTE);
         int sec = time.get(Calendar.SECOND);

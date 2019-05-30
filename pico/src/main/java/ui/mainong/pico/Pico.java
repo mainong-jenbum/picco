@@ -42,7 +42,7 @@ public class Pico extends Dialog implements View.OnClickListener {
         this.type = type;
     }
 
-    public Pico(@NonNull Context context, String title , @NonNull Type type, int themeResId) {
+    public Pico(@NonNull Context context, @Nullable String title , @NonNull Type type, int themeResId) {
         this(context, themeResId);
 
         this.title = title;
@@ -119,6 +119,7 @@ public class Pico extends Dialog implements View.OnClickListener {
     public static String formatTime(Calendar cal){
         return Converter.formatTime(cal);
     }
+
     public void setPicoListener(PicoListener listener) {
         this.listener = listener;
     }
