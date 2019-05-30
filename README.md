@@ -1,7 +1,7 @@
 # Picco
 
 *Pick a date or a time in a new way* \
-A simple library to display toast messages with custom background and icon.
+A simple library to pick your desired date or time in a new way.
 
 ## How to
 
